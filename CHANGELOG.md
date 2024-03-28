@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.9](https://github.com/sapph2c/go-template/compare/v0.1.8...v0.1.9) (2024-03-28)
+
+
+### Bug Fixes
+
+* **ci:** Testing slim changes ([38470c1](https://github.com/sapph2c/go-template/commit/38470c1884cbf8694d469b2aea72f63ed84c30fd))
+
 ## [0.1.8](https://github.com/sapph2c/go-template/compare/v0.1.7...v0.1.8) (2024-03-28)
 
 
