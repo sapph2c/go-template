@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/sapph2c/go-template/compare/v0.1.1...v0.1.2) (2024-03-28)
+
+
+### Bug Fixes
+
+* **ci:** Cleaned up .goreleaser.yaml ([9913701](https://github.com/sapph2c/go-template/commit/99137010691f5f7402521077e1b3348e695613a8))
+
 ## [0.1.1](https://github.com/sapph2c/go-template/compare/v0.1.0...v0.1.1) (2024-03-28)
 
 
