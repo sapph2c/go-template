@@ -56,21 +56,12 @@ jobs:
           IMAGE_NAME: ${{ github.repository }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  slim:
-    runs-on: ubuntu-latest
-    needs: [release]
-    steps:
-    - uses: docker/build-push-action@v4
-      with:
-        push: false
-        tags: ${{ github.repository }}:latest
+      - uses: kitabisa/docker-slim-action@v1
+        env:
+          DSLIM_HTTP_PROBE: false
+        with:
+          target: ${{ github.repository }}:arm64-latest
+          tag: "slim"
 
-    - uses: kitabisa/docker-slim-action@v1
-      env:
-        DSLIM_HTTP_PROBE: false
-      with:
-        target: ${{ github.repository }}:arm64-latest
-        tag: "slim"
-
-    # Push to the registry
-    - run: docker image push "${{ github.repository }}" --all-tags
+      # Push to the registry
+      - run: docker image push "${{ github.repository }}" --all-tags
