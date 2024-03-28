@@ -55,13 +55,3 @@ jobs:
           REGISTRY: ghcr.io
           IMAGE_NAME: ${{ github.repository }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: kitabisa/docker-slim-action@v1
-        env:
-          DSLIM_HTTP_PROBE: false
-        with:
-          target: ${{ github.repository }}:arm64-latest
-          tag: "slim"
-
-      # Push to the registry
-      - run: docker image push "${{ github.repository }}" --all-tags
