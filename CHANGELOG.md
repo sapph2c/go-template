@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/sapph2c/go-template/compare/v0.1.5...v0.1.6) (2024-03-28)
+
+
+### Bug Fixes
+
+* **ci:** Changed go-version to 1.21.1 ([a60829c](https://github.com/sapph2c/go-template/commit/a60829c50ebd7efb2742f7e7090750119bf417b1))
+
 ## [0.1.5](https://github.com/sapph2c/go-template/compare/v0.1.4...v0.1.5) (2024-03-28)
 
 
