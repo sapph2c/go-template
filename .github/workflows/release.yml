@@ -1,19 +1,24 @@
-# .github/workflows/release.yml
-name: goreleaser
+---
+name: CI
 
-on:
-  pull_request:
-  push:
-    # run only against tags
-    tags:
-      - "*"
-
-permissions:
-  contents: write
-  # packages: write
-  # issues: write
+on: [push]
 
 jobs:
+  release-please:
+    name: Release Please
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    outputs:
+      release_created: ${{ steps.release-please.outputs.release_created }}
+      tag_name: ${{ steps.release-please.outputs.tag_name }} # e.g. v1.0.0
+      version: ${{ steps.release-please.outputs.version }} # e.g. 1.0.0
+      all: ${{ toJSON(steps.release-please.outputs) }}
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        id: release-please
+        with:
+          command: manifest
+
   goreleaser:
     runs-on: ubuntu-latest
     steps:
@@ -25,14 +30,10 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: stable
-      # More assembly might be required: Docker logins, GPG, etc.
-      # It all depends on your needs.
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v5
         with:
-          # either 'goreleaser' (default) or 'goreleaser-pro'
           distribution: goreleaser
-          # 'latest', 'nightly', or a semver
           version: latest
           args: release --clean
         env:
