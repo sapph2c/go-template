@@ -14,6 +14,17 @@ builds:
       - darwin
       - linux
       - windows
+    goarch:
+      - "amd64"
+      - "386"
+      - "arm"
+      - "arm64"
+    goarm:
+      - "6"
+      - "7"
+
+universal_binaries:
+  - replace: false
 
 archives:
   - format: tar.gz
@@ -31,7 +42,7 @@ archives:
         format: zip
 
 changelog:
-  skip: true
+  disable: true
 
 dockers:
   - image_templates:
