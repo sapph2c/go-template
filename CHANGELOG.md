@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8](https://github.com/sapph2c/go-template/compare/v0.1.7...v0.1.8) (2024-03-28)
+
+
+### Bug Fixes
+
+* **ci:** Added write permissions for packages ([fd90d24](https://github.com/sapph2c/go-template/commit/fd90d24b7fb708a9f0d4f4f107bb81d17f200668))
+
 ## [0.1.7](https://github.com/sapph2c/go-template/compare/v0.1.6...v0.1.7) (2024-03-28)
 
 
