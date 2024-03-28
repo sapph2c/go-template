@@ -36,7 +36,7 @@ jobs:
           go-version: 'stable'
       - name: Run coverage
         run: go test -race -coverprofile=coverage.txt -covermode=atomic
-      - uses: codecov/codecov-action@v4.0.1
+      - uses: codecov/codecov-action@v4.1.1
         with:
             token: ${{ secrets.CODECOV_TOKEN }}
             slug: sapph2c/go-template
