@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.10](https://github.com/sapph2c/go-template/compare/v0.1.9...v0.1.10) (2024-03-28)
+
+
+### Bug Fixes
+
+* **ci:** No longer using dockerslim, look into using Ko which uses chainguard by default ([b0d6b47](https://github.com/sapph2c/go-template/commit/b0d6b470261e25c4b6d388e7fc98771d95fa7ae3))
+
 ## [0.1.9](https://github.com/sapph2c/go-template/compare/v0.1.8...v0.1.9) (2024-03-28)
 
 
