@@ -1,4 +1,4 @@
-FROM ubuntu:latest
-LABEL authors="Ashley"
+FROM golang:latest
+COPY . .
 
 ENTRYPOINT ["top", "-b"]

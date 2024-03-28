@@ -44,3 +44,21 @@ jobs:
           args: release --clean
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: docker/build-push-action@v4
+      with:
+        push: false
+        tags: ${{ github.repository }}:latest
+
+    - uses: kitabisa/docker-slim-action@v1
+      env:
+        DSLIM_HTTP_PROBE: false
+      with:
+        target: ${{ github.repository }}:latest
+        tag: "slim"
+
+    # Push to the registry
+    - run: docker image push "${{ github.repository }}" --all-tags
