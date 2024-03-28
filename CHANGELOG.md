@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.5](https://github.com/sapph2c/go-template/compare/v0.1.4...v0.1.5) (2024-03-28)
+
+
+### Features
+
+* **docker:** Added docker slim and goreleaser docker build, hopefully works ([8b410e9](https://github.com/sapph2c/go-template/commit/8b410e9434e3421a3e6e4ac26775e8e5f0d80e3e))
+* **docker:** Added docker slim and goreleaser docker build, hopefully works ([e4f29f7](https://github.com/sapph2c/go-template/commit/e4f29f7371c3a49afaeef3cb42205d834ce72550))
+
+
+### Bug Fixes
+
+* **ci:** Fixed ci.yaml syntax error ([445ea46](https://github.com/sapph2c/go-template/commit/445ea461167e00ad6114606d1f9d37150efb6650))
+
 ## [0.1.4](https://github.com/sapph2c/go-template/compare/v0.1.3...v0.1.4) (2024-03-28)
 
 
