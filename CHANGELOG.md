@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/sapph2c/go-template/compare/v0.1.2...v0.1.3) (2024-03-28)
+
+
+### Bug Fixes
+
+* **ci:** Ensured that goreleaser only triggers on release, and fixed ordering in github actions ([90b5266](https://github.com/sapph2c/go-template/commit/90b52660007ff9ddc4e8896c6b1d2f199c60dd6a))
+
 ## [0.1.2](https://github.com/sapph2c/go-template/compare/v0.1.1...v0.1.2) (2024-03-28)
 
 
