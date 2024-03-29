@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/sapph2c/go-template/compare/v1.1.0...v1.1.1) (2024-03-29)
+
+
+### Bug Fixes
+
+* **ci:** Attempting to fix docker login / registry login issues ([6b9f163](https://github.com/sapph2c/go-template/commit/6b9f163274adfd53fe82f70f95835797a222506b))
+
 ## [1.1.0](https://github.com/sapph2c/go-template/compare/v1.0.0...v1.1.0) (2024-03-29)
 
 
