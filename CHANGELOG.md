@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.0](https://github.com/sapph2c/go-template/compare/v0.1.10...v1.0.0) (2024-03-29)
+
+
+### Features
+
+* **ci:** Added CodeQL and Codecov ([c1d36f7](https://github.com/sapph2c/go-template/commit/c1d36f7cf923d58097b17f2eca89cf9096b7b37c))
+* **release:** Release-As: 1.0.0 ([7fe7306](https://github.com/sapph2c/go-template/commit/7fe7306b266956079a1973834383b2b5a52b034d))
+
+
+### Miscellaneous Chores
+
+* release 1.0.0 ([c9cc309](https://github.com/sapph2c/go-template/commit/c9cc3090d5dbf3c4a437cac9d5876f753138c133))
+
 ## [0.1.10](https://github.com/sapph2c/go-template/compare/v0.1.9...v0.1.10) (2024-03-28)
 
 
