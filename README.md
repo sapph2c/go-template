@@ -2,7 +2,7 @@
 
 # Go Template
 
-<img src="https://github.com/sapph2c/assets/blob/main/assets/gopher.png" width=auto height=300px></img>
+<img src="https://github.com/sapph2c/go-template/blob/main/assets/gopher.png" width=auto height=300px></img>
 
 Template repository I use for all Go projects.
 
