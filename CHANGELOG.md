@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/sapph2c/go-template/compare/v1.1.2...v1.1.3) (2024-03-29)
+
+
+### Bug Fixes
+
+* **go:** Added back go files to make github actions pass ([92027d5](https://github.com/sapph2c/go-template/commit/92027d52a908780629a42162740cf9fa259ba63f))
+
 ## [1.1.2](https://github.com/sapph2c/go-template/compare/v1.1.1...v1.1.2) (2024-03-29)
 
 
