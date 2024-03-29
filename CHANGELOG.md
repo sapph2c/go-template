@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.2](https://github.com/sapph2c/go-template/compare/v1.1.1...v1.1.2) (2024-03-29)
+
+
+### Bug Fixes
+
+* **ci:** Fixed typo in ci.yaml ([befe6e3](https://github.com/sapph2c/go-template/commit/befe6e3785d07f7a6c52fba9fdb21238cebcf436))
+* **Makefile:** Dockerfile and manifest are now correctly set using make clean ([5551cc8](https://github.com/sapph2c/go-template/commit/5551cc847535b2b5ef83400a68e1539a9488939d))
+
 ## [1.1.1](https://github.com/sapph2c/go-template/compare/v1.1.0...v1.1.1) (2024-03-29)
 
 
