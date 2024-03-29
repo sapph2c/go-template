@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/sapph2c/go-template/compare/v1.0.0...v1.1.0) (2024-03-29)
+
+
+### Features
+
+* **README:** Added gopher ([d9e2e5e](https://github.com/sapph2c/go-template/commit/d9e2e5e37300b6c235b2abca8bf558c554742898))
+
+
+### Bug Fixes
+
+* **README:** Updated image link ([693385e](https://github.com/sapph2c/go-template/commit/693385eb81052c29f1d89aef06dfb4a8e8a581f8))
+
 ## [1.0.0](https://github.com/sapph2c/go-template/compare/v0.1.10...v1.0.0) (2024-03-29)
 
 
