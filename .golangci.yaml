@@ -27,7 +27,6 @@ linters:
     - errcheck
     - exportloopref
     - funlen
-    - gochecknoinits
     - gocritic
     - goconst
     - gocyclo
